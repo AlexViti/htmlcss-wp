@@ -4,12 +4,46 @@
 	box-sizing: border-box;
 }
 
-/*
+html {
+	font-family: sans-serif;
+}
+
 .main-header, main, footer {
-	width: 700px;
+	width: fit-content;
 	margin: 0 auto;
 }
 
+.main-header>img {
+	width: 10rem;
+	box-sizing: content-box;
+	padding-right: 1rem;
+	border-right: 1px solid #ebebeb;
+	margin-bottom: 1rem;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+}
+
+a {
+	display: inline-block;
+	color: #989898;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 2rem;
+	padding: 1rem;
+}
+
+a:hover {
+	background-color: #989898;
+	color: white;
+}
+
+/*
 .clearfix::after {
 	content: '';
 	display: table;
