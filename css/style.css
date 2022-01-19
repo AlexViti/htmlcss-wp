@@ -8,7 +8,7 @@ html {
 	font-family: sans-serif;
 }
 
-.main-header, main, footer {
+body {
 	width: fit-content;
 	margin: 0 auto;
 }
@@ -29,20 +29,43 @@ li {
 	display: inline-block;
 }
 
-a {
-	display: inline-block;
+a{
 	color: #989898;
 	text-decoration: none;
+}
+
+li>a {
+	display: inline-block;
 	text-transform: uppercase;
 	line-height: 2rem;
 	padding: 1rem;
 }
 
-a:hover {
+li>a:hover {
 	background-color: #989898;
 	color: white;
 }
 
+.banner {
+	display: block;
+	height: 400px;
+	width: 800px;
+	background-image: url(../img/banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 1rem;
+	color: white;
+	position: relative;
+}
+
+.banner>section {
+	width: 100%;
+	height: 100%;
+	background-color: #00000030;
+	border-radius: 1rem;
+	padding: 30% 30% 2rem 2rem;
+}
 /*
 .clearfix::after {
 	content: '';
