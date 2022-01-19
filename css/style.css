@@ -6,7 +6,7 @@
 
 html {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 200;
+	font-weight: 300;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 	box-sizing: content-box;
 	padding-right: 1rem;
 	border-right: 1px solid #ebebeb;
-	margin-bottom: 1rem;
+	margin-bottom: 1.2rem;
 }
 
 ul {
@@ -51,8 +51,8 @@ li>a:hover {
 
 .banner {
 	display: block;
-	height: 400px;
-	width: 1000px;
+	height: 390px;
+	width: 900px;
 	background-image: url(../img/banner.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -67,7 +67,7 @@ li>a:hover {
 .opaque {
 	width: 100%;
 	height: 100%;
-	background-color: #00000020;
+	background-color: #00000030;
 	border-radius: 0.5rem;
 }
 
@@ -78,8 +78,8 @@ li>a:hover {
 
 .banner section {
 	position: absolute;
-	width: 48%;
-	bottom: 3rem;
+	width: 50%;
+	bottom: 3.5rem;
 	left: 3rem;
 }
 
@@ -87,8 +87,16 @@ h2, h3 {
 	font-weight: 400;
 }
 
+h2 {
+	font-size: 1.4rem;
+}
+
+.banner p {
+	font-size: .8rem;
+}
+
 main>section {
-	width: 1000px;
+	width: 900px;
 	font-size: .8rem;
 }
 
@@ -103,7 +111,8 @@ section>header {
 }
 
 h1 {
-	font-size: 1.8rem;
+	font-size: 2rem;
+	font-weight: 800;
 }
 
 h3 {
@@ -111,7 +120,7 @@ h3 {
 }
 
 .subtitle, .col p {
-	color: #989898;
+	color: #959595;
 }
 
 .col {
@@ -123,24 +132,24 @@ h3 {
 }
 
 .center {
-	width: calc(60% - 2*.5rem);
-	margin: 0 .5rem;
+	width: calc(60% - 2*.9rem);
+	margin: 0 .9rem;
 }
 
 .col>img {
 	width: 100%;
 	height: 150px;
 	object-fit: cover;
-	filter: brightness(0.9);
+	filter: brightness(0.85);
 	border-radius: 0.5rem;
 }
 
 
 footer {
-	margin-top: 1rem;
-	margin-bottom: 1.5rem;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
 	text-align: center;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 0.8rem;
 }
 
