@@ -14,7 +14,7 @@ body {
 	margin: 0 auto;
 }
 
-.main-header>img {
+.main-header img {
 	width: 8rem;
 	box-sizing: content-box;
 	padding-right: 1rem;
@@ -147,4 +147,5 @@ footer {
 footer>span {
 	font-size: 1.5em;
 	color: red;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
