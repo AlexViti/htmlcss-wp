@@ -10,7 +10,7 @@ html {
 }
 
 body {
-	width: fit-content;
+	max-width: 900px;
 	margin: 0 auto;
 }
 
@@ -30,7 +30,7 @@ li {
 	display: inline-block;
 }
 
-a{
+a {
 	color: #989898;
 	text-decoration: none;
 }
@@ -42,6 +42,8 @@ li>a {
 	padding: 0 0.2rem;
 	font-weight: 400;
 	font-size: 0.8rem;
+	border-radius: 0.3rem;
+
 }
 
 li>a:hover {
@@ -52,7 +54,7 @@ li>a:hover {
 .banner {
 	display: block;
 	height: 390px;
-	width: 900px;
+	width: 100%;
 	background-image: url(../img/banner.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -96,7 +98,7 @@ h2 {
 }
 
 main>section {
-	width: 900px;
+	width: 100%;
 	font-size: .8rem;
 }
 
